@@ -15,12 +15,12 @@ st.markdown("""
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: black;
 }
 .subtitle {
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: black;
 }
 .box {
     background-color: rgba(255,255,255,0.25);
