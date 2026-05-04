@@ -42,7 +42,7 @@ image3 = Image.open("images/pic3.jpg")
 
 # Section 1
 st.markdown('<div class="box">', unsafe_allow_html=True)
-st.image(image1, caption="Our First Memory ❤️", width=600)
+st.image(image1, caption="Our First Memory ❤️", use_container_width=True)
 
 st.subheader("🌸 The Beginning")
 st.write("""
@@ -55,7 +55,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 2
 st.markdown('<div class="box">', unsafe_allow_html=True)
-st.image(image2, caption="Moments I Miss the Most 💞", width=600)
+st.image(image2, caption="Moments I Miss the Most 💞", use_container_width=True)
 
 st.subheader("💞 Our Journey")
 st.write("""
@@ -68,7 +68,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 # Section 3
 st.markdown('<div class="box">', unsafe_allow_html=True)
-st.image(image3, caption="Together Forever 🌍❤️", width=600)
+st.image(image3, caption="Together Forever 🌍❤️", use_container_width=True)
 
 st.subheader("🌍 Our Long Distance Love")
 
@@ -113,7 +113,7 @@ if st.button("💌 Click to Reveal My Heart"):
     I may not always be there physically,
     but I promise I am always there emotionally.
 
-    **I LOVE YOU SO MUCH ❤️**
+    **I LOVE YOU SO MUCH Sana❤️**
     """)
 
 # Footer
